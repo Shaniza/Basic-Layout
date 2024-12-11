@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title > h1{
+    text-align: center;
+    background-color: rgb(93, 93, 145);
+    color: white;
+    height: 100px;
+    padding-top: 29px;
+    
+}
+#nav{
+    background-color: rgb(127, 112, 193);
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+   
+
+}
+#main{
+    position: sticky;
+    top: 0;
+
+}
+
+
+#nav > nav > a{
+    color: white;
+    display: inline;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px 150px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder; 
+    cursor: pointer;
+}
+/* #picture{
+    position: relative;
+} */
